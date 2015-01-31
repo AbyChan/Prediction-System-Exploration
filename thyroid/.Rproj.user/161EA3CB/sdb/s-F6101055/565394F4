@@ -1,0 +1,17 @@
+{
+    "contents" : "summary(is.na(data))\ndata(data)\nrt <- rpart(a)",
+    "created" : 1419088845714.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1705463280",
+    "id" : "565394F4",
+    "lastKnownWriteTime" : 1419262827,
+    "path" : "~/R/thyroid/UnknownValuesProcess.R",
+    "project_path" : "UnknownValuesProcess.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

@@ -1,0 +1,17 @@
+{
+    "contents" : ";\n; Thyroid disease records supplied by the Garavan Institute and J. Ross\n; Quinlan, New South Wales Institute, Syndney, Australia.\n;\n; 1987.\n;\n\nincreased binding protein, decreased binding protein,\nnegative.  \t\t|  classes\n\nage:\t\t\t\tcontinuous.\nsex:\t\t\t\tM, F.\non thyroxine:\t\t\tf, t.\nquery on thyroxine:\t\tf, t.\non antithyroid medication:\tf, t.\nsick:\t\t\t\tf, t.\npregnant:\t\t\tf, t.\nthyroid surgery:\t\tf, t.\nI131 treatment:\t\t\tf, t.\nquery hypothyroid:\t\tf, t.\nquery hyperthyroid:\t\tf, t.\nlithium:\t\t\tf, t.\ngoitre:\t\t\t\tf, t.\ntumor:\t\t\t\tf, t.\nhypopituitary:\t\t\tf, t.//垂体功能减退\npsych:\t\t\t\tf, t.\nTSH measured:\t\t\tf, t.\nTSH:\t\t\t\tcontinuous.\nT3 measured:\t\t\tf, t.\nT3:\t\t\t\tcontinuous.\nTT4 measured:\t\t\tf, t.\nTT4:\t\t\t\tcontinuous.\nT4U measured:\t\t\tf, t.\nT4U:\t\t\t\tcontinuous.\nFTI measured:\t\t\tf, t.\nFTI:\t\t\t\tcontinuous.\nTBG measured:\t\t\tf, t.\nTBG:\t\t\t\tcontinuous.\nreferral source:\t\tWEST, STMW, SVHC, SVI, SVHD, other.",
+    "created" : 1419084810763.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2088056345",
+    "id" : "3FC53F89",
+    "lastKnownWriteTime" : 1419085290,
+    "path" : "~/R/thyroid/allbp.names",
+    "project_path" : "allbp.names",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "text"
+}

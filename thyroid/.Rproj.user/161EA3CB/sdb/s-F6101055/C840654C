@@ -1,0 +1,17 @@
+{
+    "contents" : "summary(data)\n\nmode(data)\ndata$classes\nas.numeric(data$classes)\nas.factor(as.numeric(data$classes))\nlevels(data$classes)//\n\nmode(data$TSH)\nhist(as.numeric(data$TSH),prob=T)\n\n\n",
+    "created" : 1419084590415.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "730796415",
+    "id" : "C840654C",
+    "lastKnownWriteTime" : 1419176222,
+    "path" : "~/R/thyroid/Visualization_Summarization\n.R",
+    "project_path" : "Visualization_Summarization\n.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

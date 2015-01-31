@@ -1,0 +1,17 @@
+{
+    "contents" : "thyData = read.table(\"/home/tyan/DataSet/thyroid-disease/allbp\",sep=',',header=T,na.strings='?')\ntestData = read.table(\"/home/tyan/DataSet/thyroid-disease/allbp.test\",sep=',',header=T,na.strings='?')\nlibrary(rpart)\nrt<-rpart(thyData$classes~.,data=thyData[,1:26])\nrt\nplot(rt)\ntext(rt)\nprettyTree(rt)\nprintcp(rt)\nrt2<-prune(rt,cp=0.08)\nrt2\nplot(rt2)\ntext(rt2)\nrt.predictions=predict(rt,testData)\n\nas.numeric(testData[,'classes'])\n(rt <- mean(abs(rt.predictions-as.numeric(testData[,'classes']))))\n\n\n(rt <- mean((rt.predictions-as.numeric(testData[,'classes']))^2))\n\n\n(rt <- mean((rt.predictions-as.numeric(testData[,'classes']))^2)/\n   mean((mean(as.numeric(testData[,'classes']))-as.numeric(testData[,'classes']))^2))\n\nplot(rt.predictions)\n",
+    "created" : 1419236110587.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1717041826",
+    "id" : "8DF8A264",
+    "lastKnownWriteTime" : 1419435053,
+    "path" : "~/R/thyroid/Process.R",
+    "project_path" : "Process.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

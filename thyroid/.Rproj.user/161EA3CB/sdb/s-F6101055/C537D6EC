@@ -1,0 +1,17 @@
+{
+    "contents" : "thyData = read.table(\"/home/tyan/DataSet/thyroid-disease/allbp\",sep=',',header=T,na.strings='?')\nthyData1 = thyData[-1]\n#写入mysql数据库\nlibrary(RMySQL)\nconn <- dbConnect(MySQL(), dbname = \"thyroid-disease\", username=\"root\", password=\"cangpeishi\",host=\"127.0.0.1\",port=3306)\n\n#关闭数据库\n#dbDisconnect(conn)\n\n#打印数据库的表\ndbListTables(conn)\n\n#写入\ndbWriteTable(conn, \"allbp\", data, overwrite=TRUE)\n\n",
+    "created" : 1419077022606.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "815506716",
+    "id" : "C537D6EC",
+    "lastKnownWriteTime" : 1419262825,
+    "path" : "~/R/thyroid/dataProcess.R",
+    "project_path" : "dataProcess.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
